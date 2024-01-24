@@ -1,0 +1,411 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+#header1{
+    width:100%;
+    height: 980px;
+    padding: 0px, 59px, 0px, 59px;
+    gap: 40px;
+    background: #252B42;
+    display: flex;
+    position: relative;
+}
+p{
+    color: white;
+    margin-top: 1.4%;
+    margin-left: 10%;
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+ul li{
+    display: inline-block;
+    margin: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-top: 12px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    transition: all 0.5s;
+    transition: normal;
+    transition-duration: 0.5s;
+}
+a:hover{
+    color:  #23A6F0;
+}
+button{
+    height: 45px; 
+    width: 100px; 
+    border: none; 
+    border-radius: 5px; 
+    background: #23A6F0; 
+    color: white; 
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+#tdiv h5{
+    position: absolute;
+    top: 150px;
+    right: 650px;
+    color: #23A6F0;
+}
+#tdiv h1{
+    position: absolute;
+    color: white;
+    top: 200px;
+    right: 520px;
+    font-family:sans-serif;
+    font-size: 50px;
+}
+#tdiv p{
+    position: absolute;
+    color: white;
+    top: 250px;
+    right: 450px;
+    font-family:sans-serif;
+    font-size: 55px;
+} 
+#tdiv #para1{
+    position: absolute;
+    color: white;
+    top: 350px;
+    right: 433px;
+    font-size: 20px;
+    font-family: sans-serif;
+} 
+#tdiv #para2{
+    position: absolute;
+    color: white;
+    top: 380px;
+    right: 510px;
+    font-size: 20px;
+    font-family: sans-serif;
+} 
+#btns2{
+    position: absolute;
+    top: 450px;
+    right:500px;
+}
+button:hover{
+    box-shadow: 1px 1px 5px  #23A6F0;
+}
+.box1{
+  background-color: white;
+  width: 328px;
+  height: 292px;
+  padding: 35px, 40px, 35px, 40px;
+  gap: 20px;
+  position: absolute;
+    top: 600px;
+    right: 870px;
+}
+.box2{
+    background: white;
+    width: 328px;
+    height: 292px;
+    padding: 35px, 40px, 35px, 40px;
+    gap: 20px;
+    position: absolute;
+      top: 600px;
+      right: 510px;
+  }
+  .box3{
+    background: #23A6F0;
+    width: 328px;
+    height: 292px;
+    padding: 35px, 40px, 35px, 40px;
+    gap: 20px;
+    position: absolute;
+    top: 600px;
+    right: 150px;
+  }
+ .box1 span{
+    top:20px;
+    position: absolute;
+    width: 70px;
+    height: 76px;
+    padding: 22px, 19px, 22px, 19px;
+    border-radius: 10px;
+    gap: 10px;
+    background: #fff397; 
+    padding: 10px;
+    margin-left: 20px;
+}
+.box2 span{
+    top:20px;
+    position: absolute;
+    width: 70px;
+    height: 76px;
+    padding: 22px, 19px, 22px, 19px;
+    border-radius: 10px;
+    gap: 10px;
+    background: #B9EAA8;
+    padding: 10px;
+    margin-left: 20px;
+}
+.box3 span{
+    top:20px;
+    position: absolute;
+    width: 70px;
+    height: 76px;
+    padding: 22px, 19px, 22px, 19px;
+    border-radius: 10px;
+    gap: 10px;
+    background: white; 
+    padding: 10px;
+    margin-left: 20px;
+}
+#bdiv2{
+    width:100%;
+    height: 470px;
+    padding: 0px, 195px, 0px, 195px;
+    gap: 40px;
+    background-color: white;
+    position: relative;
+}
+#bdiv2 p img {
+    transition: all 0.5s;
+    transition: normal;
+    transition-duration: 0.5s;
+    border:2px solid #23A6F0;
+    box-shadow:1px 1px 5px #23A6F0;
+}
+#bdiv2 p img:hover{
+    border:2px solid red;
+    box-shadow:1px 1px 5px red;
+}
+#bdiv3{
+    width:100%;
+    height: 1128px;
+    padding: 0px, 195px, 0px, 195px;
+    gap: 10px;
+    background-color:white;
+    position: relative;
+}
+#bdiv3 h5{
+    position: absolute;
+    font-size: 20px;
+    top: 150px;
+    left: 150px;
+    color: #23A6F0;
+    font-family: sans-serif;
+}
+#bdiv3 h1{
+    position: absolute;
+    font-size: 40px !important;
+    top: 185px;
+    left: 148px;
+    color: black;
+    font-family: sans-serif;
+}
+#bdiv3 p{
+    position: absolute;
+    font-size: 20px;
+    top: 225px;
+    left: 13px;
+    color: #737373;
+    font-family: sans-serif;
+}
+.card{
+    width: Fixed (238px);
+    height:(658px);
+    position: absolute;
+    top: 400px;
+    left: 140px;
+}
+.card button{
+    position: absolute;
+    top: 610px;
+    left: 20px;
+    background-color: white;
+    color: #23A6F0;
+    border: 1px solid #23A6F0;
+    width: 150px;
+    border-radius: 20px;
+}
+.card1{
+    left: 405px;
+    top: 400px;
+    position: absolute;
+}
+.card1 button{
+    position: absolute;
+    top: 610px;
+    left: 20px;
+    background-color: white;
+    color: #23A6F0;
+    border: 1px solid #23A6F0;
+    width: 150px;
+    border-radius: 20px;
+}
+.card2{
+    left: 670px;
+    top: 400px;
+    position: absolute;
+}
+.card2 button{
+    position: absolute;
+    top: 610px;
+    left: 20px;
+    background-color: white;
+    color: #23A6F0;
+    border: 1px solid #23A6F0;
+    width: 150px;
+    border-radius: 20px;
+}
+.card3{
+    left: 934px;
+    top: 400px;
+    position: absolute;
+}
+.card3 button{
+    position: absolute;
+    top: 610px;
+    left: 20px;
+    background-color: white;
+    color: #23A6F0;
+    border: 1px solid #23A6F0;
+    width: 150px;
+    border-radius: 20px;
+}
+#bdiv4{
+    width:100%;
+    height: 865px;
+    padding: 0px, 195px, 0px, 195px;
+    background-color: white;
+    position: relative;
+}
+#bdiv4 img{
+    transition: all 0.5s;
+    transition: normal;
+    transition-duration: 0.5s;
+}
+#bdiv4 img:hover{
+    transform: scale(1.05);
+}
+#bdiv4 h5{
+    position: absolute;
+    font-size: 20px;
+    top: 150px;
+    left: 150px;
+    color: #23A6F0;
+    font-family: sans-serif;
+}
+#bdiv4 h1{
+    position: absolute;
+    font-size: 40px !important;
+    top: 185px;
+    left: 148px;
+    color: black;
+    font-family: sans-serif;
+}
+#bdiv4 p{
+    position: absolute;
+    font-size: 20px;
+    top: 225px;
+    left: 13px;
+    color: #737373;
+    font-family: sans-serif;
+}
+#bdiv5{
+    width:100%;
+    height: 594px;
+    padding: 0px, 195px, 0px, 195px;
+    background-color: white;
+    position: relative;
+}
+#bdiv5 h4{
+    position: absolute;
+    color: #23A6F0;
+    top: 150px;
+    left: 600px;
+    font-family: sans-serif;
+}
+#bdiv5 h1{
+    position: absolute;
+    font-family: sans-serif;
+    top: 190px;
+    left: 405px;
+    font-size:60px;
+}
+#bdiv5 p{
+    position: absolute;
+    top: 270px;
+    left: 235px;
+    color: #737373;
+    font-size: 20px;
+}
+#bdiv5 input{
+    position: absolute;
+    top: 400px;
+    width: 55%;
+    padding: 20px;
+    left: 250px;
+    border: 1px solid #23A6F0;
+    color: #23A6F0;
+}
+input:focus{
+    border: 1px solid #23A6F0;
+    outline: none;
+    box-shadow: 1px 1px 5px #23A6F0;
+}
+input:focus::placeholder{
+    color: #23A6F0;
+    padding-left: 8px;
+    transition: all 0.5s;
+    transition: normal;
+    transition-duration: 0.5s;
+}
+#bdiv5 button{
+    position: absolute;
+    top: 400px;
+    left: 992px;
+    height: 57px;
+    border-radius: 0px;
+}
+#footer{
+    width:100%;
+    height: 425px;
+    gap: 40px;
+    background: #252B42;
+    color: white;
+    position: relative;
+}
+#footer h3{
+    top: 100px;
+    left: 100px;
+    font-family: sans-serif;
+    font-size: 40px;
+    position: absolute;
+}
+#footer p{
+    top: 140px;
+    left: -30px;
+    font-size: 20px;
+    font-weight: 300;
+    position: absolute;
+}
+ol{
+    list-style-type: none;
+    font-family: sans-serif;
+    font-weight: bold;
+    position: absolute;
+    left: 410px;
+    top: 170px;
+    font-size: larger;
+}
+#footer h2{
+    width:100%;
+    position: absolute;
+    bottom: 0px;
+    text-align: center;
+    padding: 10px;
+    background-color: white;
+    color: #737373;
+    font-family: sans-serif;
+    font-size: 20px;
+}
